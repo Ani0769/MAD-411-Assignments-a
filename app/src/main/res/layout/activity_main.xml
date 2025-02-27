@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout android:layout_width="409dp"
+    android:layout_height="729dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="95dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="307dp"
+            android:layout_height="wrap_content"
+            android:text="Enter your name"
+            android:textAlignment="center"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextText"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip"
+            android:layout_width="166dp"
+            android:layout_height="wrap_content"
+            android:text="Show name"
+            android:textStyle="bold"
+            android:onClick="calculateClick"/>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="309dp"
+            android:layout_height="47dp"
+            android:text="Hello "
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
